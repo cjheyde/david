@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <h1>Welcome to My Web Page</h1>
+    </header>
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <p>This is a paragraph about me.</p>
+      </section>
+
+      <!--comments are made this way -->
+      <section>
+        <p>
+          This is a <strong>bold</strong> text and this is an
+          <em>italic</em> text.
+        </p>
+        <ol>
+          <li><h3>First item</h3></li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ol>
+        <a href="https://www.redi-school.org/" target="_blank"
+          >ReDi School Site</a
+        >
+      </section>
+      <!-- <a href="/images/logo_Bright.png" target="_blank">Check the image in another screen</a> -->
+      <img
+        src="/images/logo_Bright.png"
+        alt="BrightSpark Marketing Agency Logo"
+        width="150"
+        height="40"
+        title="Logo"
+      />
+      <table>
+        <!-- <caption>Name and Country Table</caption> -->
+        <colgroup>
+          <col span="1" style="width: 35%" />
+          <col span="1" style="width: 40%" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice</td>
+            <td>Brazil</td>
+          </tr>
+          <tr>
+            <td>Bob</td>
+            <td>Japan</td>
+          </tr>
+          <tr>
+            <td>Patricia</td>
+            <td>South Africa</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"><strong>Total People</strong></td>
+            <td>3</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <button type="submit">Submit</button>
+      </form>
+      <a href="#navbar" target="_self" rel="noopener">Link to the Header</a>
+    </main>
+    <footer>
+      <p>&copy; 2024 My Web Page</p>
+    </footer>
+  </body>
+</html>
